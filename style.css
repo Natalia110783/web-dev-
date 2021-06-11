@@ -1,0 +1,151 @@
+body {
+	color: black;
+	font-size: 10px;
+	font-family: Corsiva;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2 {
+	color: #A52A2A;
+	font-size: chivo;
+}	
+
+p {
+	color: #6d2305; 
+	opacity: .7;	
+}
+
+h4{
+	margin: auto;
+	padding: 15px;
+	padding-top: 0;
+}
+
+#banner {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Computadora.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0;
+	text-align: center;
+}
+
+#banner h1{
+	color: #FD685D;
+	font-family: Critter;
+	font-size: 60px;
+}
+
+#banner p{
+	color: #FE938C;
+	font-size: 50px;
+}
+
+#banner a{
+	color: #EF959D;
+	font-family: Critter;
+	font-size: 25px;
+	padding: 10px 5px;
+	margin: auto;
+}
+
+.container {
+	background-color: #EBC5AD;
+	width: 100%;
+	color: #008B8B;
+	font-size: 18px;	
+	text-align: -webkit-center;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+
+.container h2{
+	color: #6d2305;
+	font-size: 20px;
+	font-family: Arial;
+	margin: 0;
+}
+
+.button-blue {
+	background-color: rgba(100 100 100 100 0.1);
+	color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.button-blue:hover{
+	background-color: #B8D8BA;
+	color: white;
+}
+
+.cards {
+	background-color: #EBC5AD;
+	background-position: center;
+	width: 100%;
+	margin: 0;
+	padding: 15px;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	flex: 2 1 auto;
+	justify-content: space-around;
+}
+
+.cards-white {
+	background: white;
+	text-align: center;
+	height: auto;
+	width: 50px;
+}
+
+h3{
+	text-align: center;
+	color: darkred;
+}
+
+ul{
+	list-style-type: none
+}
+
+.Temas{
+	background-color: #E07A52;
+	margin: auto;
+	padding: 15px 15px;
+	color: #57240F;
+	font-size: 15px;
+	font-family: Arial;
+}
+
+#informacion{
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+
+#footer {
+	background-color: #EDAF97;
+	font-size:15px;
+	font-family: Arial;
+	padding: 3px 3px 3px ;
+	text-align: center;
+	color: blueviolet;
+	justify-content: center;
+}
+
+@media (max-width: 960px) {
+	.cards {
+		display: grid;
+		grid-gap: 30px;
+		margin: 0;
+		padding: 15px
+	}
+}
